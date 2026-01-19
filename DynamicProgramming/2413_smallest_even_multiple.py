@@ -1,0 +1,9 @@
+#leetcode problem number: 2413 smallest even multiple
+# https://leetcode.com/problems/smallest-even-multiple/description/
+
+class Solution:
+    def smallestEvenMultiple(self, n: int) -> int:
+        if n%2==0:
+            return n
+        else:
+            return n*2
